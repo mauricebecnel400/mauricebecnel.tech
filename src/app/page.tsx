@@ -2,29 +2,32 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between lg:flex">
-        <div className="fixed left-0 top-0 flex flex-col w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          <p>Maurice Becnel</p>
-          <p>Fullstack Developer @Goldman Sachs</p>
+    <main className="flex min-h-screen flex-col items-center justify-start gap-20 p-24 mx-40">
+      <div className="w-full flex justify-between max-lg:flex-col max-lg:justify-between max-lg:gap-10">
+        <div className="flex flex-col justify-start max-md:justify-center max-md:items-center">
+          <h1 className="text-5xl font-bold mt-4 mb-4">Maurice&nbsp;Becnel</h1>
+          <div className="flex gap-2 items-center justify-center">
+            <p className="text-xl">Associate&nbsp;Fullstack&nbsp;Developer</p> 
+            <a className="inline text-xl text-secondary" href="https://www.goldmansachs.com">@Goldman&nbsp;Sachs</a>
+          </div>
         </div>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <div className="relative w-64 h-64 rounded-full overflow-hidden border-8 border-white">
             <Image
-              src="/profilePic.JPG"
+              src="/profile.JPG"
               alt="Profile Picture"
-              width={250}
-              height={333}
               priority
+              objectFit="cover"
+              layout="fill"
             />
-          </a>
         </div>
-      </div>      
+      </div>   
+      <h2 className="text-3xl font-bold w-full"> 
+        Dedicated to improving digital experiences one
+        <pre className="inline p-2 text-xl inline">
+          <code className="bg-secondary px-1 text-xl">npm install</code> 
+        </pre>
+        at a time.
+      </h2>
     </main>
   )
 }

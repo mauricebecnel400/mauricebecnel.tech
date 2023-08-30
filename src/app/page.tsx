@@ -2,9 +2,9 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start gap-20 p-24 mx-40">
-      <div className="w-full flex justify-between max-lg:flex-col max-lg:justify-between max-lg:gap-10">
-        <div className="flex flex-col justify-start max-md:justify-center max-md:items-center">
+    <main className="flex flex-col items-center gap-20 p-10 mx-40 p-20 max-w-screen-xl">
+      <div className="w-full flex justify-between mx-20 gap-10 items-center flex-col lg:flex-row">
+        <div className="flex flex-col justify-center items-center md:items-start lg:items-start">
           <h1 className="text-5xl font-bold mt-4 mb-4">Maurice&nbsp;Becnel</h1>
           <div className="flex gap-2 items-center justify-center">
             <p className="text-xl">Associate&nbsp;Fullstack&nbsp;Developer</p> 
@@ -20,14 +20,16 @@ export default function Home() {
               layout="fill"
             />
         </div>
-      </div>   
-      <h2 className="text-3xl font-bold w-full"> 
+      </div>
+      <div className="flex justify-center">
+      <h2 className="text-4xl font-bold"> 
         Dedicated to improving digital experiences one
         <pre className="inline p-2 text-xl inline">
-          <code className="bg-secondary px-1 text-xl">npm install</code> 
+          <code className="bg-secondary px-1 text-3xl">npm install</code> 
         </pre>
         at a time.
       </h2>
+      </div>
     </main>
   )
 }

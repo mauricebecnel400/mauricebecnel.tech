@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center items-center gap-20 p-10 mx-40 p-20 overflow-hidden">
+    <main className="flex flex-col justify-center items-center gap-20 p-10 mx-40 p-20 overflow-x-hidden">
       <div className="max-w-6xl flex flex-col justify-center items-center gap-20">
           <div className="w-full flex justify-between gap-10 items-center flex-col lg:flex-row">
             <div className="flex flex-col justify-center items-center md:items-center lg:items-start">

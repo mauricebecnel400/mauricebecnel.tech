@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center items-center gap-20 p-10 mx-40 p-20">
-      <div className="max-w-6xl flex flex-col justify-center items-center gap-20">
+    <main className="flex flex-col justify-center items-center">
+      <div className="max-w-6xl flex flex-col justify-center items-center gap-20 mx-40 p-20">
           <div className="w-full flex justify-between gap-10 items-center flex-col lg:flex-row">
             <div className="flex flex-col justify-center items-center md:items-center lg:items-start">
               <h1 className="text-5xl font-bold mt-4 mb-4">Maurice&nbsp;Becnel</h1>

@@ -51,7 +51,7 @@ export default function Home() {
           </h2>
         </div>
       </div>
-      <section className="fixed bottom-16 w-full">
+      <section className="fixed bottom-20 w-full">
         <div className="flex justify-center gap-20 w-full h-full">
           <div className="w-12 flex justify-center items-center hover:animate-grow ">
             <a

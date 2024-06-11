@@ -27,6 +27,7 @@ export default function Home() {
                 @Kizen
               </a>
             </div>
+            <p className="text-secondary">Los Angeles, California</p>
           </div>
           <div className="relative w-64 h-64 rounded-full overflow-hidden border-8 border-white">
             <Image

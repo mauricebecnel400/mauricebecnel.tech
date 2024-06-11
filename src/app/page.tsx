@@ -1,6 +1,10 @@
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
   return (
@@ -46,11 +50,37 @@ export default function Home() {
           </h2>
         </div>
       </div>
-      <div className="w-full h-full">
-        <div className="w-full flex justify-center items-center">
-          <FontAwesomeIcon icon={faGithub} color="white" size="sm" />
+      <section className="mt-20">
+        <div className="flex justify-center gap-20 w-full h-full">
+          <div className="w-12 flex justify-center items-center hover:animate-grow ">
+            <a
+              className="w-full h-full"
+              href="https://github.com/mauricebecnel400"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faGithub} color="white" />
+            </a>
+          </div>
+          <div className="w-10 flex justify-center items-center hover:animate-grow ">
+            <a
+              className="w-full h-full"
+              href="https://www.linkedin.com/in/maurice-becnel-3a1945117/"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faLinkedin} color="white" />
+            </a>
+          </div>
+          <div className="w-12 flex justify-center items-center hover:animate-grow ">
+            <a
+              className="w-full h-full"
+              href="https://x.com/mauricethedev"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faXTwitter} color="white" />
+            </a>
+          </div>
         </div>
-      </div>
+      </section>
       <footer className="w-full fixed inset-x-0 bottom-0 bg-black text-white text-center p-4">
         <p>© 2024 Maurice Becnel. All rights reserved.</p>
       </footer>

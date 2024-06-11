@@ -55,16 +55,20 @@ export default function Home() {
         <div className="flex justify-center gap-20 w-full h-full">
           <div className="w-12 flex justify-center items-center hover:animate-grow ">
             <a
-              className="w-full h-full"
+              className="w-full h-full block text-center align-bottom"
               href="https://github.com/mauricebecnel400"
               target="_blank"
             >
-              <FontAwesomeIcon icon={faGithub} color="white" />
+              <FontAwesomeIcon
+                className="p-[3px]"
+                icon={faGithub}
+                color="white"
+              />
             </a>
           </div>
           <div className="w-10 flex justify-center items-center hover:animate-grow ">
             <a
-              className="w-full h-full"
+              className="w-full h-full block text-center align-bottom"
               href="https://www.linkedin.com/in/maurice-becnel-3a1945117/"
               target="_blank"
             >
@@ -73,7 +77,7 @@ export default function Home() {
           </div>
           <div className="w-12 flex justify-center items-center hover:animate-grow ">
             <a
-              className="w-full h-full"
+              className="w-full h-full block text-center align-bottom"
               href="https://x.com/mauricethedev"
               target="_blank"
             >

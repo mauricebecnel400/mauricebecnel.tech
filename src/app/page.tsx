@@ -8,8 +8,8 @@ import {
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center items-center">
-      <div className="max-w-6xl flex flex-col justify-center items-center gap-20 mx-40 p-20">
+    <main className="flex flex-col justify-center items-center w-full h-full">
+      <div className="max-w-6xl h-full w-full flex flex-col justify-center items-center lg:gap-20 md:gap-20 sm:gap-20 mx-40 px-20 pt-20">
         <div className="w-full flex justify-between gap-10 items-center flex-col lg:flex-row">
           <div className="flex flex-col justify-center items-center md:items-center lg:items-start">
             <h1 className="text-5xl font-bold mt-4 mb-4">
@@ -51,9 +51,10 @@ export default function Home() {
           </h2>
         </div>
       </div>
-      <section className="fixed bottom-20 w-full">
+      <div className="w-full mt-10 lg:mt-20" />
+      <footer className="w-full sm:mt-2 md:mt-2 lg:mt-6">
         <div className="flex justify-center gap-20 w-full h-full">
-          <div className="w-12 flex justify-center items-center hover:animate-grow ">
+          <div className="w-12 sm:w-10 flex justify-center items-center hover:animate-grow ">
             <a
               className="w-full h-full block text-center align-bottom"
               href="https://github.com/mauricebecnel400"
@@ -85,9 +86,6 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </section>
-      <footer className="w-full fixed inset-x-0 bottom-0 bg-black text-white text-center p-4">
-        <p>© 2024 Maurice Becnel. All rights reserved.</p>
       </footer>
     </main>
   );

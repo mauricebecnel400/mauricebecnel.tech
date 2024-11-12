@@ -12,11 +12,11 @@ export default function Home() {
       <div className="max-w-6xl h-full w-full flex flex-col justify-center items-center lg:gap-20 md:gap-20 sm:gap-20 mx-40 px-20 pt-20">
         <div className="w-full flex justify-between gap-10 items-center flex-col lg:flex-row">
           <div className="flex flex-col justify-center items-center md:items-center lg:items-start">
-            <h1 className="text-5xl font-bold mt-4 mb-4">
+            <h1 className="text-5xl text-white font-bold mt-4 mb-4">
               Maurice&nbsp;Becnel
             </h1>
             <div className="flex gap-2 items-center justify-center">
-              <p className="text-md md:text-xl lg:text-xl">
+              <p className="text-md md:text-xl text-white lg:text-xl">
                 Senior&nbsp;Front-End&nbsp;Engineer
               </p>
               <a
@@ -40,7 +40,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-center text-center md:text-left lg:text-left">
-          <h2 className="text-xl font-bold md:text-4xl lg:text-4xl">
+          <h2 className="text-xl font-bold md:text-4xl text-white lg:text-4xl">
             Dedicated to improving digital experiences one
             <pre className="inline p-2 text-xl inline">
               <code className="bg-secondary px-1 text-xl md:text-3xl lg:text-3xl">
